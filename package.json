@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "echo \"Building your new static site!\""
+    "build": "netlify-lambda build functions"
   },
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mgenrich/staticsite.git"
+    "type": "git",
+    "url": "git+https://github.com/mgenrich/staticsite.git"
   },
   "keywords": [],
   "author": "Mike Genrich <mikeg@snappydresser.org>",
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/mgenrich/staticsite/issues"
+    "url": "https://github.com/mgenrich/staticsite/issues"
   },
-  "homepage": "https://github.com/mgenrich/staticsite#readme"
+  "homepage": "https://github.com/mgenrich/staticsite#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.4.13"
+  }
 }
