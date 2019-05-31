@@ -1,3 +1,5 @@
 # .gitignore
 # generated functions
 .functions
+# npm dotenv
+.env

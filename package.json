@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build functions"
+    "build": "netlify-lambda build functions",
+    "serve": "netlify-lambda serve functions"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/mgenrich/staticsite#readme",
   "dependencies": {
-    "netlify-lambda": "^1.4.13"
+    "dotenv": "^8.0.0",
+    "netlify-lambda": "^1.4.13",
+    "twilio": "^3.31.1"
   }
 }
